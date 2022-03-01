@@ -1,0 +1,101 @@
+.DIScontainer{
+    width: 50%;
+    height: 100%;
+    background-color: #00474b;
+    border-radius: 25px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.displaynum{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.parts{
+    position: relative;
+    margin-top: 40px;
+}
+
+h4{
+    color: white;
+}
+
+p{
+    color: hsla(172, 67%, 45%, 0.65);
+    font-size: .80rem;
+}
+
+span{
+    color: #25beaa;
+    font-size: 2.5rem;
+    font-weight: bold;
+    position: absolute;
+    line-height: .75;
+    right: 0;
+    top: 0;
+}
+
+.BTNreset{
+    width: 85%;
+    height: 50px;
+    border: none;
+    background-color: #25beaa;
+    color: #00474b;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.25rem ;
+    text-transform: uppercase;
+    margin: auto;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.BTNreset:hover{
+    background-color: #9fe8df;
+}
+
+.Amount{
+    width: 70%;
+    height: 62px;
+    overflow: auto;
+    overflow-y: visible;
+    direction: rtl;
+}
+
+.Total{
+    width: 70%;
+    height: 62px;
+    overflow: auto;
+    direction: rtl;
+}
+
+@media only screen and (max-width:740px) {
+    .DIScontainer{
+        width: 90%;
+        height: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    span{
+       font-size: 2rem;
+       line-height: 1;
+   }
+}
+
+@media only screen and (max-width:315px) {
+    span{
+       font-size: 1.5rem;
+       line-height: 1;
+   }
+    h4{
+        font-size: .85rem;
+    }
+}

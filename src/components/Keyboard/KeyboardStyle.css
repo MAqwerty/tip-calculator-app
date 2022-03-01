@@ -1,0 +1,177 @@
+.KEYcontainer{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+}
+
+.PublicDIV{
+    position: relative;
+}
+
+.inputNUM{
+    position: relative;
+}
+
+.label{ 
+    font-weight: bold;
+    color: hsla(178, 100%, 15%, 0.7);
+}
+
+.inputBOX{
+    border: solid #f3f8fb 2px;
+    border-radius: 5px;
+    width: 75%;
+    padding-right: 20px;
+    padding-left: 45px;
+    background-color: #f3f8fb;
+    outline: none;
+    font-size: x-large;
+    font-weight: bold;
+    color: #004a47;
+}
+
+.inputBOX:focus{
+    border: 2px solid #61aaa1;
+}
+
+.inputBOXinvalid{
+    border: 2px solid #b37972;
+}
+
+.icon{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f8fb;
+    margin:5px;
+    height: 30px;
+    width: 40px;
+}
+
+.BTNtip{
+    width: 30%;
+    height: 50px;
+    margin-right: 5px;
+    margin-top: 5px;
+    background-color: #00474b;
+    color: white;
+    font-size: large;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+    transition: .2s all linear;
+}
+
+.BTNtip:hover{
+    background-color: #9fe8df;
+    color: #00474b;
+    border: #004a47 solid 3px;
+    font-weight: bold;
+}
+
+.BTNtipSelect{
+    background-color: #9fe8df;
+    border: #9fe8df solid 2px;
+    color: #00474b;
+    font-weight: bold;
+}
+
+.CustomBTN{
+    width: 29%;
+    height: 47px;
+    padding: 0;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 7px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    background-color: hsla(0, 0%, 75%, 0.5);
+    border: hsla(0, 0%, 75%, 0.5) solid 2px;
+    outline: none;
+}
+
+.CustomBTN:focus{
+    color: #00474b;
+    border: #004a47 solid 2px;
+}
+
+.Message{
+    display: none;
+    color: red;
+    font-size: small;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    right: 8%;
+}
+
+@media only screen and (max-width:740px) {
+    .KEYcontainer{
+        width: 90%;
+        height: 100%;
+        padding: 10px;
+    }
+    .PublicDIV{
+        position: relative;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .allBTN{
+        margin-left: 20px;
+    }
+    .CustomBTN{
+        width: 44.5%;
+        height: 50px;
+        padding: 0;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .BTNtip{
+        width: 45%;
+        height: 50px;
+        margin-right: 12px;
+        margin-top: 12px;
+    }
+    .inputBOX{
+        width: 80%; 
+    }
+    .Message{
+        right:6%;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    .Message{
+        right:3%;
+        font-size: .75rem;
+    }
+}
+
+@media only screen and (max-width:315px) {
+    .CustomBTN{
+        width: 44%;
+        height: 40px;
+        padding: 0;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .BTNtip{
+        width: 44%;
+        height: 40px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }  
+    .Message{
+        right:-2%;
+        font-size: .57rem;
+    }
+    .allBTN{
+        margin-left: 10px;
+    }
+}
