@@ -1,4 +1,4 @@
-![header image](https://raw.github.com/MAqwerty/tip-calculator-app/master/Design.jpg)
+![header image](https://raw.github.com/MAqwerty/tip-calculator-app/master/design.jpg)
 
 # Getting Started with Create React App
 
